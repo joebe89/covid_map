@@ -1,0 +1,15 @@
+.tab {
+    padding: 0px 16px;
+    // height: 100%;
+    // justify-self: stretch;
+    // align-self: stretch;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover, &.active {
+        background-color: $active;
+    }
+}

@@ -1,0 +1,29 @@
+#sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    width: 100%;
+    background-color: $panel;
+    border-right: 1px solid $panel-border;
+
+    display: grid;
+    grid-auto-rows: 48px;
+    grid-template-rows: max-content max-content;
+
+    #header {
+        padding: 8px 0px;
+        h3, h5 {
+            user-select: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .divider {
+        margin: 0 5%;
+        width: 90%;
+        height: 1px;
+        border-top: 1px solid $panel-border;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,22 @@
+#content {
+    grid-area: content;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+
+    display: grid;
+    grid-template-areas: 'header'
+                         'map';
+    
+    grid-template-rows: max-content auto;
+    grid-gap: 8px;
+    
+    #header {
+        grid-area: header;
+    }
+
+    #map {
+        grid-area: map;
+    }
+}

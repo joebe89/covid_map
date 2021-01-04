@@ -1,0 +1,17 @@
+{
+  "name": "covid_map_web",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "leaflet": "^1.7.1",
+    "next": "^10.0.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-leaflet": "^3.0.5",
+    "sass": "^1.32.0"
+  }
+}

@@ -1,0 +1,9 @@
+main {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-areas:
+        'sidebar content';
+
+    min-height: calc(100vh - 1px);
+    box-sizing: border-box;
+}
