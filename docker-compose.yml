@@ -3,10 +3,10 @@ version: '3'
 services:
   nginx:
     image: nginx:latest
-    restart: unless-stopped
+    restart: on-failure
     volumes:
       - ./nginx.conf:/etc/nginx/templates/default.conf.template
-      - ./web:/public
+      - ./web/out:/var/www/out
     ports:
       - 80:80
     # environment:

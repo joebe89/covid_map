@@ -2,6 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,node,react,windows,macos,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,node,react,windows,macos,linux
 
+web/out
+
 ### Linux ###
 *~
 
