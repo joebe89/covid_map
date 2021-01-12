@@ -3,10 +3,11 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "preexport": "npm run build",
+    "export": "next export",
+    "prestart": "npm run export"
   },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
     "leaflet": "^1.7.1",
     "next": "^10.0.4",
     "react": "^17.0.1",
